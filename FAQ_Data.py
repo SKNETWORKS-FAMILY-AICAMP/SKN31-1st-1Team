@@ -20,15 +20,21 @@ db_config = {
     'user': os.getenv("DB_USER"),           # MySQL 사용자 이름
     'password': os.getenv("DB_PASSWORD"),   # MySQL 비밀번호
     'host': os.getenv("DB_HOST"),           # MySQL 호스트
-    'database': os.getenv("DB_NAME")        # 사용할 데이터베이스 이름
+    'port': int(os.getenv("DB_PORT")),
+    'db': os.getenv("DB_NAME")        # 사용할 데이터베이스 이름
 }
-
+print(db_config)
 
 # FAQ 데이터 삽입
 def insert_faq_data_to_db():
 
-    conn = pymysql.connect(**db_config)
+    conn = pymysql.connect(host=db_config['host'],
+                           user=db_config['user'],
+                           password=db_config['password'],
+                           db=db_config['db'],
+                           port=db_config['port'])
     cursor = conn.cursor()
+    
 
     # kia_faq.csv 파일 읽기 및 데이터 삽입
     print("KIA FAQ data inserting...")

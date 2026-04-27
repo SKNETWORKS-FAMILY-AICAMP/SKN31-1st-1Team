@@ -18,6 +18,7 @@ with col1:
         folium.Marker(
             [row['lat'], row['lon']], 
             tooltip=row['직영점명'],
+            icon=folium.Icon(color='red', icon='info-sign'),
             name=row['직영점명'] 
         ).add_to(m)
 

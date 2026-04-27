@@ -1,20 +1,19 @@
 import streamlit as st
 import pandas as pd
+import Car_Info_Data as ci
 import plotly.express as px
 
-@st.cache_data
-def get_data():
-    df = pd.read_csv("data/kcar_cars_raw.csv")
-    df['가격_숫자'] = df['가격'].str.split().str[-1].str.replace('[만원,]', '', regex=True).fillna(0).astype(int)
-    return df
+# DB 데이터 로드
+df = ci.load_data_to_db("SELECT * FROM car_info")
 
-df = get_data()
+# 데이터 전처리(DB price컬럼 데이터를 숫자로 변환)
+df['price'] = pd.to_numeric(df['price'], errors='coerce')
 
 # 가격 구간 설정
 bins = [0, 1000, 2000, 3000, 4000, 5000, 10000, 30000]
 labels = ['1천 미만', '1~2천', '2~3천', '3~4천', '4~5천', '5천~1억', '1억 이상']
 
-df['가격대'] = pd.cut(df['가격_숫자'], bins=bins, labels=labels, right=False)
+df['가격대'] = pd.cut(df['price'], bins=bins, labels=labels, right=False)
 
 # 가격대별 매물 수 집계
 price_counts = df['가격대'].value_counts().reindex(labels).reset_index()
@@ -49,6 +48,6 @@ col1, col2, col3 = st.columns(3)
 with col1:
     st.metric("총 매물 수", f"{len(df):,} 대")
 with col2:
-    st.metric("평균 가격", f"{int(df['가격_숫자'].mean()):,} 만원")
+    st.metric("평균 가격", f"{int(df['price'].mean()):,} 만원")
 with col3:
-    st.metric("최고가 매물", f"{int(df['가격_숫자'].max())/10000:} 억원")
+    st.metric("최고가 매물", f"{int(df['price'].max())/10000:} 억원")

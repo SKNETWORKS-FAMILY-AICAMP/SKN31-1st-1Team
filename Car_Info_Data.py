@@ -50,15 +50,15 @@ def insert_car_info_to_db():
     conn.close()
     print("FAQ data inserted successfully.")
 
-# # DB에서 데이터 조회하여 DataFrame으로 반환
-# def load_data_to_db(query):
-#     # MySQL 데이터베이스 연결
-#     conn = pymysql.connect(**db_config)
+# DB에서 데이터 조회하여 DataFrame으로 반환
+def load_data_to_db(query):
+    # MySQL 데이터베이스 연결
+    conn = pymysql.connect(**db_config)
 
-#     df = pd.read_sql(query, conn)
+    df = pd.read_sql(query, conn)
 
-#     conn.close()
-#     return df
+    conn.close()
+    return df
 
 if __name__ == "__main__":
     insert_car_info_to_db()

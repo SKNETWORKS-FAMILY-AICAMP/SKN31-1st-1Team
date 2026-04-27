@@ -3,7 +3,7 @@ import pandas as pd
 
 @st.cache_data
 def get_data():
-    df = pd.read_csv("data/kcar_cars.csv")
+    df = pd.read_csv("data/kcar_cars_raw.csv")
     df['제조사'] = df['차량명'].apply(lambda x: x.split()[0])
     df['가격_숫자'] = df['가격'].str.split().str[-1].str.replace('[만원,]', '', regex=True).fillna(0).astype(int)
     return df

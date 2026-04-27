@@ -11,7 +11,7 @@ def extract_price(x):
 
 @st.cache_data
 def get_data():
-    df = pd.read_csv("data/kcar_cars.csv")
+    df = pd.read_csv("data/kcar_cars_raw.csv")
     # 제조사/모델 분리
     df['제조사'] = df['차량명'].apply(lambda x: x.split()[0])
     df['모델'] = df['차량명'].apply(lambda x: x.split()[1] if len(x.split()) > 1 else "기타")

@@ -4,7 +4,7 @@ import plotly.express as px
 
 @st.cache_data
 def get_data():
-    df = pd.read_csv("data/kcar_cars.csv")
+    df = pd.read_csv("data/kcar_cars_raw.csv")
     
     df['제조사'] = df['차량명'].str.split().str[0]
     df['연식_년도'] = df['연식'].str.split().str[0].str[:2].apply(lambda x: int("20" + x) if x.isdigit() else None)

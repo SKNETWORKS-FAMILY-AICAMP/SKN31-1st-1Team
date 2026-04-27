@@ -4,7 +4,7 @@ import plotly.express as px
 
 @st.cache_data
 def get_data():
-    df = pd.read_csv("data/kcar_cars.csv")
+    df = pd.read_csv("data/kcar_cars_raw.csv")
     df['가격_숫자'] = df['가격'].str.split().str[-1].str.replace('[만원,]', '', regex=True).fillna(0).astype(int)
     return df
 

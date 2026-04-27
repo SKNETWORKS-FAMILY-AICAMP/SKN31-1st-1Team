@@ -3,7 +3,7 @@ import folium
 from streamlit_folium import st_folium
 import pandas as pd
 
-df = pd.read_csv("data/kcar_centers_raw.csv")
+df = pd.read_csv("data/kcar_centers_raw.csv", encoding='cp949')
 df[['lat', 'lon']] = df['위경도'].str.split(',', expand=True).astype(float)
 
 col1, col2 = st.columns([0.7, 0.3])

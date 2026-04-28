@@ -35,21 +35,30 @@ SKN31-1st-1Team
 │  ├─ kia_faq.csv
 │  ├─ kia_faq_utf-8.csv
 │  └─ run.ipynb
-├─ FAQ_Data.py
 ├─ images
-│  └─ erd.png
+│  ├─ car_branch.png
+│  ├─ car_info.png
+│  ├─ erd.png
+│  ├─ faq.png
+│  ├─ main_page.png
+│  ├─ price.png
+│  ├─ year.png
+│  ├─ 마크.png
+│  ├─ 머스티.png
+│  ├─ 캠프.png
+│  └─ 클리니.png
 ├─ pages
 │  ├─ .DS_Store
-│  ├─ DB_Query.sql
-│  ├─ 가격대별_매물_수.py
-│  ├─ 연식별_가격_변화.py
-│  ├─ 중고차_정보_조회.py
-│  ├─ 지점_찾기.py
-│  └─ 질의응답.py
+│  ├─ 01중고차_정보_조회.py
+│  ├─ 02가격대별_매물_수.py
+│  ├─ 03연식별_가격_변화.py
+│  ├─ 04지점_찾기.py
+│  ├─ 05질의응답.py
+│  └─ DB_Query.sql
 ├─ README.md
 ├─ Car_Info_Data.py
+├─ FAQ_Data.py
 └─ 메인_페이지.py
-
 ```
 
 ---

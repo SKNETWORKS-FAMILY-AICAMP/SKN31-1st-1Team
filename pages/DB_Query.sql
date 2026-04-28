@@ -15,3 +15,13 @@ CREATE TABLE IF NOT EXISTS car_info (
     mileage INT NOT NULL, 
     price INT NOT NULL
 );
+
+
+CREATE TABLE IF NOT EXISTS car_branch (
+    branch_id INT AUTO_INCREMENT PRIMARY KEY,
+    branch_name VARCHAR(50) NOT NULL,
+    address VARCHAR(100) NOT NULL,
+    branch_number VARCHAR(15) NOT NULL,
+    car_count INT NOT NULL,
+    address_detail VARCHAR(50)
+);

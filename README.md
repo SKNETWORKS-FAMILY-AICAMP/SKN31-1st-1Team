@@ -40,8 +40,7 @@ SKN31-1st-1Team
 │  ├─ kcar_cars_cleaned.csv
 │  ├─ kcar_cars_raw.csv
 │  ├─ kcar_centers_raw.csv
-│  ├─ kia_faq.csv
-│  └─ run.ipynb
+│  └─ kia_faq.csv
 ├─ images
 │  ├─ car_branch.png
 │  ├─ car_info.png

@@ -3,6 +3,8 @@ import pandas as pd
 import FAQ_Data as qd
 import re
 
+st.set_page_config(page_title="NULL 위한 차", layout="wide")
+
 # DB에서 DataFrame 형태로 로드
 df = qd.load_data_to_db("SELECT * FROM car_faq")
 

@@ -3,6 +3,8 @@ import pandas as pd
 import Car_Info_Data as ci
 import plotly.express as px
 
+st.set_page_config(page_title="NULL 위한 차", layout="wide")
+
 df = ci.load_data_to_db("SELECT * FROM car_info")
 
 st.title("Car Info")

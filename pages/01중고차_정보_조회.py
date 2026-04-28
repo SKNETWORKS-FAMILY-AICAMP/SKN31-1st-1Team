@@ -1,6 +1,8 @@
 import streamlit as st
 import pandas as pd
 
+st.set_page_config(page_title="NULL 위한 차", layout="wide")
+
 def extract_price(x):
     if pd.isnull(x): return 0
     

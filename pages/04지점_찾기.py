@@ -3,6 +3,8 @@ import folium
 from streamlit_folium import st_folium
 import pandas as pd
 
+st.set_page_config(page_title="NULL 위한 차", layout="wide")
+
 df = pd.read_csv("data/kcar_centers_raw.csv", encoding='cp949')
 df[['lat', 'lon']] = df['위경도'].str.split(',', expand=True).astype(float)
 

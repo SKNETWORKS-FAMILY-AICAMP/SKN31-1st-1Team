@@ -8,7 +8,7 @@ def get_data():
     df['가격_숫자'] = df['가격'].str.split().str[-1].str.replace('[만원,]', '', regex=True).fillna(0).astype(int)
     return df
 
-st.set_page_config(page_title="중고차 정보 조회", layout="wide")
+st.set_page_config(page_title="NULL 위한 차", layout="wide")
 
 df = get_data()
 
@@ -36,4 +36,4 @@ with center_content:
     st.page_link("pages/02가격대별_매물_수.py", label="가격대별 매물 수 보러 가기", icon='📊')
     st.page_link("pages/03연식별_가격_변화.py", label="연식별 평균 가격 변화 보러 가기", icon='📈')
     st.page_link("pages/04지점_찾기.py", label="전국 지점 찾으러 가기", icon='🗺️')
-    st.page_link("pages/05질의응답.py", label="궁금한 것 물어보러 가기", icon='❓')
+    st.page_link("pages/05FAQ.py", label="궁금한 것 물어보러 가기", icon='❓')

@@ -57,20 +57,24 @@ SKN31-1st-1Team
 ## 기술 스택
 
 ### Frontend
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)
-![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit">
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html&logoColor=white" alt="HTML">
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css&logoColor=white" alt="CSS">
 
 ### Backend & Database
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+<img src="https://img.shields.io/badge/MySQL-00618A?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
 
 ### Data Processing & Analysis
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![Plotly](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas">
+<img src="https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white" alt="Plotly">
+<img src="https://img.shields.io/badge/Folium-3F8F75?style=for-the-badge&logo=folium&logoColor=white" alt="Folium">
 
 
 ### Web Scraping
+<img src="https://img.shields.io/badge/Requests-2F5F75?style=for-the-badge&logo=requests&logoColor=white" alt="Requests">
+<img src="https://img.shields.io/badge/BeautifulSoup-18F75?style=for-the-badge&logo=beautifulsoup&logoColor=white" alt="BeautifulSoup">
+
 
 ---
 

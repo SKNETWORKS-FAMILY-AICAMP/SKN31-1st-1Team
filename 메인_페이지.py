@@ -32,8 +32,8 @@ with center_content:
     st.divider()
 
     # 페이지 링크
-    st.page_link("pages/가격대별_매물_수.py", label="가격대별 매물 수 보러 가기", icon='📊')
-    st.page_link("pages/연식별_가격_변화.py", label="연식별 평균 가격 변화 보러 가기", icon='📈')
-    st.page_link("pages/중고차_정보_조회.py", label="내가 찾는 중고차 보러 가기", icon='🔍')
-    st.page_link("pages/지점_찾기.py", label="전국 지점 찾으러 가기", icon='🗺️')
-    st.page_link("pages/질의응답.py", label="궁금한 것 물어보러 가기", icon='❓')
+    st.page_link("pages/01중고차_정보_조회.py", label="내가 찾는 중고차 보러 가기", icon='🔍')
+    st.page_link("pages/02가격대별_매물_수.py", label="가격대별 매물 수 보러 가기", icon='📊')
+    st.page_link("pages/03연식별_가격_변화.py", label="연식별 평균 가격 변화 보러 가기", icon='📈')
+    st.page_link("pages/04지점_찾기.py", label="전국 지점 찾으러 가기", icon='🗺️')
+    st.page_link("pages/05질의응답.py", label="궁금한 것 물어보러 가기", icon='❓')

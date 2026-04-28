@@ -112,16 +112,22 @@ SKN31-1st-1Team
 
 ## 수행 결과
 ### 1) 메인 페이지 - 시장 현황
+<img src="images\main_page.png">
 
 ### 2) 가격대별 매물 수
+<img src="images\price.png">
 
 ### 3) 연식별 가격 변화
+<img src="images\year.png">
 
 ### 4) 중고차 정보 조회
+<img src="images\car_info.png">
 
 ### 5) 지점 찾기
+<img src="images\car_branch.png">
 
 ### 6) 질의응답
+<img src="images\faq.png">
 
 ## 한 줄 회고
 #### 안영선

@@ -3,6 +3,7 @@
 ## 팀 및 팀원 소개
 
 ### 팀 명
+- **NULL(널) 위한 차**
 
 ### 팀원
 | 안영선 | 김효민 | 이용혁 | 전서연 
@@ -61,8 +62,13 @@ SKN31-1st-1Team
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
 ### Backend & Database
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
 ### Data Processing & Analysis
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![Plotly](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+
 
 ### Web Scraping
 
@@ -81,16 +87,27 @@ SKN31-1st-1Team
 ---
 
 ## 수행 결과
-### 1)
-### 2)
-### 3)
+### 1) 메인 페이지 - 시장 현황
+
+### 2) 가격대별 매물 수
+
+### 3) 연식별 가격 변화
+
+### 4) 중고차 정보 조회
+
+### 5) 지점 찾기
+
+### 6) 질의응답
 
 ## 한 줄 회고
 #### 안영선
  - 데이터를 웹에서 크롤링하여 저장하고 이를 화면에 표현하는 것을 처음해봤는데 신기하였고, 여러가지를 표현하고 싶었지만 아쉽게도 아직 실력이 부족하여 하지 못한 것이 아쉬워서 다음에는 더 많은 것을 표현할 수 있게 노력하겠습니다.
+
 #### 김효민
  - 
+
 #### 이용혁
  - 중고차  판매 사이트에 있는 웹 데이터를 정적 및  동적 크롤링을 통해  수집하였습니다.  API를 통한 데이터 수집과 비교해 웹 크롤링을 통한 데이터 수집이 훨씬 더 어려웠습니다.  데이터 수집 이후 정제 과정에서도 마찬가지였습니다. 힘든  과정을 거친 후 수집한 데이터가 데이터베이스에 옮겨졌고,   팀 동료들의  수고 덕분에  훌륭한 정보로 구현되었습니다.  동료들과 함께 한 팀 프로젝트 과정을 통해 시간은 짧고,  비록 프로젝트 규모는 작았지만  상당한 성취감을 느낀 좋은 경험이었습니다.
+ 
 #### 전서연
  - 

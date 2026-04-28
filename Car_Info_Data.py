@@ -53,7 +53,11 @@ def insert_car_info_to_db():
 # DB에서 데이터 조회하여 DataFrame으로 반환
 def load_data_to_db(query):
     # MySQL 데이터베이스 연결
-    conn = pymysql.connect(**db_config)
+    conn = pymysql.connect(host=db_config['host'],
+                           user=db_config['user'],
+                           password=db_config['password'],
+                           db=db_config['db'],
+                           port=db_config['port'])
 
     df = pd.read_sql(query, conn)
 

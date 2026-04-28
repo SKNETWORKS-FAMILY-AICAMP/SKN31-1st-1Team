@@ -10,7 +10,7 @@
 | :---: | :---: | :---: | :---: |
 | <a href="https://github.com/dksdudtjs94"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=GitHub&logoColor=white"/> | <a href="https://github.com/hyomin0357"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=GitHub&logoColor=white"/> | <a href="https://github.com/leeyonghyok"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=GitHub&logoColor=white"/> | <a href="https://github.com/sxoxyn"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=GitHub&logoColor=white"/> |
 |<img src="images\마크.png" width="150" height="150"> | <img src="images\클리니.png" width="150" height="150"> | <img src="images\머스티.png" width="150" height="150"> | <img src="images\캠프.png" width="150" height="150"> |
-| PM, DB, Data preprocessing          | DB desing | Crawling          | Streamlit |
+| <b>PM</b>, DB, Data preprocessing          | DB | Crawling          | UI/UX |
 
 ---
 
